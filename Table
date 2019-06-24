@@ -1,0 +1,19 @@
+<!Doctype html>
+<html>
+
+<head>
+		<meta charset="utf-8">
+        <title>Документ HTML5</title>
+</head>
+
+<body>
+
+<div>Содержание документа HTML 5</div>
+
+<table color="violet">
+<tr><td>первая строка</td><><></tr>
+
+
+</table>
+</body>
+</html>
