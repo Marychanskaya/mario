@@ -10,10 +10,33 @@
 
 <div>Содержание документа HTML 5</div>
 
-<table color="violet">
-<tr><td>первая строка</td><><></tr>
+<table>
 
+<thead>
+<tr><th>Дело</th><th>Статус</th></tr>
+</thead>
+<tbody>
+<tr>
+	<td>Написать новый завет</td>  <td>     
+	<form action="index.html"><p><input type="checkbox" name="a" value="check"></p></form></td>
+</tr>
 
+<tr>
+	<td>Переехать в Мексику</td>  <td>     
+	<form action="index.html"><p><input type="checkbox" name="a" value="check"></p></form></td>
+</tr>
+
+<tr>
+	<td>Купить футбольный клуб</td>  <td>     
+	<form action="index.html"><p><input type="checkbox" name="a" value="check"></p></form></td>
+</tr>
+
+<tr>
+	<td>Подставить верхушку</td>  <td>     
+	<form action="index.html"><p><input type="checkbox" name="a" value="check"></p></form></td>
+</tr>
+
+</tbody>
 </table>
 </body>
 </html>
