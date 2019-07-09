@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Список дел</title>
+	<style>
+	body{
+		background-color: #3366CC;
+		}
+	p{
+		color: #FFFFFF
+		}
+	h1{
+		color: #FFFFFF;
+		font:normal 36px monospace;
+		margin-left: 100px;
+		}
+		
+	li {
+		list-style-type: none;
+		}
+	.container{
+		width:100%;
+		height: 100%;
+		}
+
+	.taskslist{
+		width:300px;
+		height:40px;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+		background: #FFFFFF;
+		opacity: 0.8;
+		margin-bottom: 5px;
+		text-align:left;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+	
+	<h1>СПИСОК ДЕЛ</h1>
+	
+	<p>Разместить дела: </p>
+	<p><input name="view" type="radio" value="list"> Таблицей</p>
+    <p><input name="view" type="radio" value="grid"> Сеткой</p>
+	
+	
+	<div class="container">
+<ul>
+<li>
+<div class="taskslist">
+<input type="checkbox"> Открыть консервы
+</div>
+</li>
+<li>
+<div class="taskslist">
+<input type="checkbox"> Спасти доктора Брауна
+</div>
+</li>
+<li>
+<div class="taskslist">
+<input type="checkbox"> Переписать Ветхий завет
+</div>
+</li>
+<li>
+<div class="taskslist">
+<input type="checkbox"> Купить яблок
+</div>
+</li>
+<li>
+<div class="taskslist">
+<input type="checkbox"> Вернуться в прошлое
+</div>
+</li>
+<li>
+<div class="taskslist">
+<input type="checkbox"> Выбрать другой сорт яблок
+</div>
+</li>
+</ul>
+	</div>
+</body>
+
+</html>
